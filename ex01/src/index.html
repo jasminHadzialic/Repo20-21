@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      QWERTY Keyboard
+    </title>
+   
+    <link rel="stylesheet" href="/index.css"/>
+    <script src="/index.js"></script>
+  </head>
+  <body>
+    <textarea class="textArea" id="textArea" placeholder="TEXT AREA" rows="10"></textarea>
+    <div class="board">
+    <div class="keyboard-div first-row">
+        <button class="button-element" onclick="handleButtonClick('1')">1</button>
+        <button class="button-element" onclick="handleButtonClick('2')">2</button>
+        <button class="button-element" onclick="handleButtonClick('3')">3</button>
+        <button class="button-element" onclick="handleButtonClick('4')">4</button>
+        <button class="button-element" onclick="handleButtonClick('5')">5</button>
+        <button class="button-element" onclick="handleButtonClick('6')">6</button>
+        <button class="button-element" onclick="handleButtonClick('7')">7</button>
+        <button class="button-element" onclick="handleButtonClick('8')">8</button>
+        <button class="button-element" onclick="handleButtonClick('9')">9</button>
+        <button class="button-element" onclick="handleButtonClick('0')">0</button>
+        <button class="button-element" id="backSpace" onclick="pressBackspace()">Back Space</button>
+    </div>
+    <div class="keyboard-div second-row">
+      <button class="button-element" onclick="handleButtonClick('q')">q</button>
+      <button class="button-element" onclick="handleButtonClick('w')">w</button>
+      <button class="button-element" onclick="handleButtonClick('e')">e</button>
+      <button class="button-element" onclick="handleButtonClick('r')">r</button>
+      <button class="button-element" onclick="handleButtonClick('t')">t</button>
+      <button class="button-element" onclick="handleButtonClick('y')">y</button>
+      <button class="button-element" onclick="handleButtonClick('u')">u</button>
+      <button class="button-element" onclick="handleButtonClick('i')">i</button>
+      <button class="button-element" onclick="handleButtonClick('o')">o</button>
+      <button class="button-element" onclick="handleButtonClick('p')">p</button>
+      <button class="button-element" id="enter" onclick="handleButtonClick('\n')">Enter</button>
+  </div>
+  <div class="keyboard-div third-row">
+    <button class="button-element" onclick="handleButtonClick('a')">a</button>
+    <button class="button-element" onclick="handleButtonClick('s')">s</button>
+    <button class="button-element" onclick="handleButtonClick('d')">d</button>
+    <button class="button-element" onclick="handleButtonClick('f')">f</button>
+    <button class="button-element" onclick="handleButtonClick('g')">g</button>
+    <button class="button-element" onclick="handleButtonClick('h')">h</button>
+    <button class="button-element" onclick="handleButtonClick('j')">j</button>
+    <button class="button-element" onclick="handleButtonClick('k')">k</button>
+    <button class="button-element" onclick="handleButtonClick('l')">l</button>
+    <button class="button-element" id="capsLock" onclick="pressedCapsLock()">Caps Lock</button>
+</div>
+<div class="keyboard-div fourth-row">
+  <button class="button-element" onclick="handleButtonClick('z')">z</button>
+  <button class="button-element" onclick="handleButtonClick('x')">x</button>
+  <button class="button-element" onclick="handleButtonClick('c')">c</button>
+  <button class="button-element" onclick="handleButtonClick('v')">v</button>
+  <button class="button-element" onclick="handleButtonClick('b')">b</button>
+  <button class="button-element" onclick="handleButtonClick('n')">n</button>
+  <button class="button-element" onclick="handleButtonClick('m')">m</button>
+  <button class="button-element" onclick="handleButtonClick('-')">-</button>
+  <button class="button-element" onclick="handleButtonClick('_')">_</button>
+  <button class="button-element" id="shift" onclick="pressedShift()">Shift</button>
+</div>
+<div class="keyboard-div fifth-row">
+  <button class="button-element" id="space" onclick="handleButtonClick(' ')">Space</button>
+  <button class="button-element" id="ok" onclick="submit()">OK</button>
+  </div>
+  </div>
+  </body>
+</html>

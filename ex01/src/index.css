@@ -1,0 +1,74 @@
+.keyboard-div {
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    height: 50%;
+}
+
+.button-element {
+    padding: 1%;
+    width: 5%;
+    color: white;
+    background: black;
+    border: 1px solid darkslategray;
+}
+
+#backSpace {
+    width: 10%;
+}
+
+#capsLock {
+    width: 15%;
+}
+
+#enter {
+    width: 10%;
+}
+
+#shift {
+    width: 15%;
+}
+
+#space {
+    width: 45%;
+}
+
+#ok {
+    width: 15%;
+}
+
+textarea {
+    width: 60%;
+    background-color: gainsboro;
+    color: blue;
+    border-color: blue;
+    font-size: 16px;
+}
+
+textarea:focus {
+    background-color: gainsboro;
+    color: blue;
+    border-color: blue;
+    outline: unset;
+}
+
+::placeholder {
+    color: blue;
+
+}
+
+.first-row {
+    display: flex;
+}
+.second-row {
+    display: flex;
+}
+.third-row {
+    display: flex;
+}
+.fourth-row {
+    display: flex;
+}
+.fifth-row {
+    display: flex;
+}
